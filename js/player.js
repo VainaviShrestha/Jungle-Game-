@@ -47,7 +47,7 @@ class Player {
   //write a function for  static updatePlayerAtEnd(rank)
   static updatePlayerAtEnd(rank) {
     database.ref("/").update({
-      playersAtEnd: rank
+      playerAtEnd: rank
     });
   }
     

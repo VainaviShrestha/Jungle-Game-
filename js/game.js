@@ -76,7 +76,7 @@ text("Player 2 :" + allPlayers.player2.score, 50, 100);
                     player.rank += 1;
 
 //Call the updatePlayerAtEnd() function in the play() of game.js
-player.updatePlayerAtEnd();
+Player.updatePlayerAtEnd(player.rank);
     
 player.update();
  this.showRank();
